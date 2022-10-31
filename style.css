@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    display: flex;
+    margin-top: 20vh;
+}
+
+.numbers {
+    display: flex;
+    gap: 2vw;
+}
+
+.writing {
+    line-height: 5vh;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 37vw;
+}
+
+h1 {
+    margin-bottom: 2vh;
+}
+
+p {
+    line-height: 4vh;
+}
