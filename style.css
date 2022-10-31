@@ -5,6 +5,8 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans&family=Lexend+Deca:wght@200&display=swap');
 
 body {
     display: flex;
@@ -20,7 +22,16 @@ body {
 
 .numbers {
     display: flex;
-    gap: 2vw;
+    gap: 3vw;
+}
+
+.numbers div p {
+    opacity: 0.7;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h2 {
+
 }
 
 .writing {
@@ -33,12 +44,59 @@ body {
     align-items: center;
     text-align: left;
     width: 37vw;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
 }
 
 h1 {
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
+    margin-right: 25px;
 }
 
 p {
     line-height: 4vh;
+    margin-bottom: 4vh;
+}
+
+div img {
+    background-color: hsl(277, 64%, 61%);
+    color:hsl(277, 64%, 61%);
+}
+
+.image {
+    width: 40vw;
+    height: 50vh;
+    background-image: url("/images/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-overlay {
+    width: 40vw;
+    height: 50vh;
+    background-color: hsla(278, 97%, 50%, 0.6); 
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 7px;
+    }
+
+    .writing {
+        height: 50vh;
+    }
+
 }
